@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "431731da-1fb7-4d8c-9023-e876fcae9ed8",
+            "Value": {
+                "id": "ddf18b17-6841-4344-ad0e-fdea460488fc",
+                "resourcePath": "objects\\gui_statusmess\\gui_statusmess.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "436b36a6-ab7b-4b13-9b5a-b0ea6aeb71cc",
             "Value": {
                 "id": "7a58c085-c6bf-4236-a470-9ba58c795a6d",
@@ -148,6 +156,14 @@
                 "id": "bcd1ca85-30dd-4447-9dd0-9724d4f90cf2",
                 "resourcePath": "views\\49cd5254-afc1-4694-858a-09bfda868cf2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4dc23360-1d75-4e9d-8c2d-440001cfbf12",
+            "Value": {
+                "id": "6be5775e-8fe8-4af4-9767-3b2ad7cc7b37",
+                "resourcePath": "sprites\\gui_statusmess_back0\\gui_statusmess_back0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "88ea88bb-8b7c-41ad-83ed-855063cda377",
+            "Value": {
+                "id": "618707fb-e385-44bf-b8aa-c8ac5a7706fe",
+                "resourcePath": "sprites\\gui_statusmess_back1\\gui_statusmess_back1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "907c0126-545a-4fee-bfd8-72e19d034677",
             "Value": {
                 "id": "27155c80-15c4-4d0a-b7ce-de02734ba0f2",
@@ -300,6 +324,14 @@
                 "id": "3b5cf38a-4e56-46e5-b300-dd23f3bbce5d",
                 "resourcePath": "objects\\form_button_registration\\form_button_registration.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5331535-4d49-4e21-a09e-fd25b2c90408",
+            "Value": {
+                "id": "a863b974-2449-42a9-808e-316f0ae75090",
+                "resourcePath": "views\\c5331535-4d49-4e21-a09e-fd25b2c90408.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -391,6 +423,14 @@
             }
         },
         {
+            "Key": "fa7ea090-53d9-43b5-961f-5eb684fdc10d",
+            "Value": {
+                "id": "21ea4ebb-4b7d-445d-8f7f-07ce6280f512",
+                "resourcePath": "scripts\\gui_new_statusmess\\gui_new_statusmess.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa8a2348-cbce-4acc-8e3c-5248433b391f",
             "Value": {
                 "id": "b06573af-addd-4941-a516-1847322f6a8b",
@@ -403,7 +443,8 @@
         "a66bf21b-5450-4a55-8585-0e9619e59e5f",
         "3424c6f5-7da2-4eed-affd-871c1757faa9",
         "9b06b9b1-bfb3-4353-9ac3-c7a05c7a855b",
-        "c654b91a-8dea-4ac5-bdf1-87717bb668e5"
+        "c654b91a-8dea-4ac5-bdf1-87717bb668e5",
+        "fa7ea090-53d9-43b5-961f-5eb684fdc10d"
     ],
     "tutorial": ""
 }

@@ -14,20 +14,26 @@ if (async_load[? "id"] = GET_version) {
 if (async_load[? "id"] = POST_reg) {
 	var json = async_load[? "result"];
 	var map = json_decode(json);
-	var operationStatus = "-1";
 	if (ds_map_exists(map, "operationStatus")) {
-		operationStatus = map[? "operationStatus"];
+		var operationStatus = map[? "operationStatus"];
+		if (operationStatus == "SUCCESSFUL_OPERATION") {
+			gui_new_statusmess("Succesful registration!", 1);
+		} else {
+			gui_new_statusmess("Failed registration!", 0);
+		}
 	}
 	forms_unlock();
 }
 if (async_load[? "id"] = POST_login) {
 	var json = async_load[? "result"];
 	var map = json_decode(json);
-	if (map[? "operationStatus"] == "success") {
-		global.user_token = map[? "securityToken"];
+	if (map[? "operationStatus"] == "SUCCESSFUL_OPERATION") {
+		var body = map[? "body"]
+		global.user_token = body[? "securityToken"];
 		show_debug_message(global.user_token);
 		room_goto(mainMenu);
 	} else {
+		gui_new_statusmess("Wrong login!", 0);
 		show_debug_message(map[? "operationStatus"])
 	}
 	forms_unlock();
